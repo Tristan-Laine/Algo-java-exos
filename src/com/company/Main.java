@@ -26,7 +26,7 @@ public class Main {
             for (int i = 0; i < Moy.length; i++) {          //Création boucle for
                 moyenne = moyenne + Moy[i];                 //la varible moyenne prend sa valeur + la valeur Moy en i
             }
-            moyenne = moyenne / 7;                          //on divise moyenne par le nombre totale de valeur dans le tableau
+            moyenne = moyenne / Moy.length;                          //on divise moyenne par le nombre totale de valeur dans le tableau
             System.out.println("Fonction Moyenne = " +moyenne); //on dis la moyenne
         }
 
